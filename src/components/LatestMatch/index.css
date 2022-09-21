@@ -1,0 +1,63 @@
+.latest-card {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+}
+
+.left-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+.latest-heading {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.date-match {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.venue-match {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.latest-image {
+  width: 260px;
+  height: 200px;
+  margin-right: 46px;
+}
+
+.right-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+
+.latest-innings {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.values-latest {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
